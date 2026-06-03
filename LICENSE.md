@@ -1,0 +1,1 @@
+„This ComfyUI workflow logic is free to use, modify, and share for educational and non-commercial purposes. Please note that the underlying AI models (such as Float Advanced / Wan 2.1) carry their own respective non-commercial licenses. Any commercial application of this pipeline is strictly limited by the terms of the original model creators.“
