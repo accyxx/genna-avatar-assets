@@ -19,7 +19,7 @@ These files are optimized for pure latent audio-driven diffusion in ComfyUI on l
 *   **`Markdown Note** -> The raw textual script containing our specialized phonetic sentence layers for calibration.
 
 ### 3. `/output_preview/`
-*   **`GGenna_Final_Output_Disgust.mp4`** -> The final 780-frame synchronized video container running at a fluid 30 FPS. Serves as your production baseline.
+*   **`Genna_Final_Output_Disgust.mp4`** -> The final 780-frame synchronized video container running at a fluid 30 FPS. Serves as your production baseline.
 *   **`Genna_Disgust_Headphones_Glitching.mp4*** -> *[NEW]* A raw reference clip demonstrating how rigid geometric objects (like headphone earcups) deform unnaturally into "gum-like" artifacts when subjected to aggressive latent audio forces without prompt optimization.
 
 
