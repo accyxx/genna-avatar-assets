@@ -24,8 +24,36 @@ These files are optimized for pure latent audio-driven diffusion in ComfyUI on l
 
 
 ## 🛠️ How to Use
-1. Clone this repository alongside our official [ComfyUI-8GB-Pipelines Core Repo](https://github.com).
-2. Load the `.json` workflow from the core repo into ComfyUI.
-3. Feed `ComfyUI_00011_.png` into your image loader and `Genna_26_seconds_Audio_Padding.wav` into your Float Advanced / Audio        loader nodes.
-4. Hit queue prompt and welcome to the lab!
+
+### 🛠️ Step 1: Requirements & Model Setup
+
+To run the Genna Talking Head Pipeline, you must install the required ComfyUI extensions and download the model weights into your ComfyUI folders.
+
+#### 1. Required ComfyUI Extensions (Custom Nodes)
+Install these via the **ComfyUI Manager** (search for their names) or download them manually into your `ComfyUI/custom_nodes/` directory:
+* **[🗣️ ComfyUI-IndexTTS2](https://github.com/snicolast/ComfyUI-IndexTTS2.git))** – Lightweight voice cloning and emotional audio controller.
+* **[🎬 ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git)** – Essential for loading, processing, and rendering video containers.
+* **[🚀 ComfyUI-FLOAT_Optimized](https://github.com/set-soft/ComfyUI-FLOAT_Optimized.git)** – Optimized core engine for audio-driven Generative Motion Latent Flow Matching.
+* **[🎙️ ComfyUI-OmniVoice-TTS](https://github.com/Saganaki22/ComfyUI-OmniVoice-TTS
+)** – Enables multilingual Zero-Shot Text-to-Speech inside the workflow.
+
+#### 2. Required AI Models & Weights (HuggingFace)
+Click the links below to download the models. Move the files into the specified subfolders within your main `ComfyUI/models/` directory:
+
+* **[🧠 Download Z-Image-Turbo (GGUF)](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q6_K.gguf)** (Q6_K quantization)   * *Move to folder: `ComfyUI/models/unet/` (or `models/checkpoints/`)*
+* **[📝 Download Qwen3-4B Text Encoder (GGUF)](https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q6_K.gguf)** (Lightweight text conditioning)   * *Move to folder: `ComfyUI/models/text_encoders/` (or `models/llm/`)*
+* **[✨ Download Z-Image-Turbo VAE]( https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)** (`ae.safetensors` autoencoder)   * *Move to folder: `ComfyUI/models/vae/`*
+
+---
+
+### 🚀 Step 2: Run the Workflow
+
+You can either **clone** the entire repository using Git or simply **download it as a ZIP file** by clicking the green `<> Code` button at the top of this page (or [click here to download the ZIP directly](https://github.com)).
+
+Once you have the files on your local machine, follow these steps:
+
+1. **Load the Workflow:** Drag and drop the `.json` file from your local `/workflows/` folder directly into your ComfyUI browser tab.
+2. **Load the Avatar Image:** Feed `ComfyUI_00011_.png` (from the `/avatar_image/` folder) into your ComfyUI image loader node.
+3. **Load the Audio Track:** Feed `Genna_26_seconds_Audio_Padding.wav` (from the `/voice_audio/` folder) into your Float Advanced / Audio loader nodes.
+4. **Generate:** Hit **Queue Prompt** and welcome to the lab! 🚀
 
