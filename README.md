@@ -59,7 +59,12 @@ Once you have the files on your local machine, follow these steps:
 
 If you get an error on the Node - See Screenshot 
 
-<img width="808" height="392" alt="grafik" src="https://github.com/user-attachments/assets/f66e65d6-8de9-4e91-b993-56c6839235f7" />
+<fieldset>
+  <legend>🤖 Screenshot: Node Error Hilfe</legend>
+  <img width="808" height="392" alt="grafik" src="https://github.com/user-attachments/assets/f66e65d6-8de9-4e91-b993-56c6839235f7" />
+</fieldset>
+
+
 
 start with: 
 a_cfd_scale - 1.0
