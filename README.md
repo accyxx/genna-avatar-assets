@@ -60,7 +60,7 @@ Once you have the files on your local machine, follow these steps:
 ### If you get an error on the Node - Happens after the Patch!
 
 <fieldset>
-  <legend> <strong> 🤖 Screenshot: Node Error Hilfe <strong></legend>
+  <legend> <strong> 🤖 Screenshot: Node Error Help <strong></legend>
   <img width="808" height="392" alt="grafik" src="https://github.com/user-attachments/assets/f66e65d6-8de9-4e91-b993-56c6839235f7" />
 </fieldset>
 
