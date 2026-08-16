@@ -57,18 +57,16 @@ Once you have the files on your local machine, follow these steps:
 3. **Load the Audio Track:** Feed `Genna_26_seconds_Audio_Padding.wav` (from the `/voice_audio/` folder) into your Float Advanced / Audio loader nodes.
 4. **Generate:** Hit **Queue Prompt** and welcome to the lab! 🚀
 
-If you get an error on the Node - See Screenshot 
+### If you get an error on the Node - See Screenshot 
 
 <fieldset>
   <legend>🤖 Screenshot: Node Error Hilfe</legend>
   <img width="808" height="392" alt="grafik" src="https://github.com/user-attachments/assets/f66e65d6-8de9-4e91-b993-56c6839235f7" />
 </fieldset>
 
+<br>
 
-
-start with: 
-a_cfd_scale - 1.0
-e_cfg_scale - 1.0
-seed        - 123 ( Automatically generates new SEED on RUN ) 
-
-
+start with:<br>
+`a_cfd_scale` - 1.0<br>
+`e_cfg_scale` - 1.0<br>
+`seed` - 123 *(Automatically generates new SEED on RUN)*
